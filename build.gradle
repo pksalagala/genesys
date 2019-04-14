@@ -1,0 +1,11 @@
+
+apply plugin: 'application'
+mainClassName = 'com.ab.genesys.ApplicationKt'
+
+group = 'com.ab'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+subprojects {
+    version = '1.0'
+}
